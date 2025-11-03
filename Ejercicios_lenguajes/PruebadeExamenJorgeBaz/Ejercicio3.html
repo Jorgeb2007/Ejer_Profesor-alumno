@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><b>Formulario Ejercicio3</b></h1>
+   <form method="post" >
+<fieldset>
+<legend>Datos</legend>
+<!--Select Optioms-->
+<label for="Comida"><b>Comida Favorita:</b></label>
+<select name="Comida" id="Comida">
+<option value="PorDefecto">Seleccionar</option>
+<option value="Macarrones">Macarrones</option>
+<option value="Pollo">Pollo</option>
+<option value="Ensalada">Ensalada</option>
+<option value="Salchichas">Salchichas</option>
+<option value="Otro">Otros</option>
+</select>
+<br>
+<!--Cuadro de texto-->
+<label for="Cuadrotext"><b>Cuadro de texto:</b></label>
+<br>
+<textarea id="Cuadrotext" name="Cuadrotext" rows="20" cols="50" placeholder="Completa este formulario"></textarea>
+<br>
+<!--Radio Button-->
+<label><b>Supermercado Preferido:</b></label>
+<br>
+<label for="Dia">DIA</label>
+<input type="radio" id="Dia" name="Tiendas" value="Dia" > 
+<br>
+<label for="Alimerca">Alimerca</label>
+<input type="radio" id="Alimerca" name="Tiendas" value="Alimerca">
+<br>
+<label for="Mercadona">Mercadona</label>
+<input type="radio" id="Mercadona" name="Tiendas" value="Mercadona" checked>
+<br><br>
+<!--Boton de enviar formulario-->
+<input type="submit" value="Enviar">
+<!--Boton de Borrar el contenido del Formulario-->
+<input type="reset" value="Borrar">
+
+
+
+
+
+
+
+</fieldset>
+    </form>
+</body>
+</html>
